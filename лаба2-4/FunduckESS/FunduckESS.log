@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "Shell.py", line 497, in doRunES
+TypeError: arguments did not match any overloaded call:
+  QMessageBox.warning(QWidget, str, str, QMessageBox.StandardButtons buttons=QMessageBox.Ok, QMessageBox.StandardButton defaultButton=QMessageBox.NoButton): not enough arguments
+  QMessageBox.warning(QWidget, str, str, int, int, int button2=0): not enough arguments
+  QMessageBox.warning(QWidget, str, str, str, str button1Text='', str button2Text='', int defaultButtonNumber=0, int escapeButtonNumber=-1): not enough arguments

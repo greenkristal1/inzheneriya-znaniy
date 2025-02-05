@@ -1,0 +1,237 @@
+[
+  {
+    "id": 1,
+    "title": "Командный вид спорта или индивидуальный?",
+    "children": [
+      { "name": "Командный", "childId": 2 },
+      { "name": "Индивидуальный", "childId": 6 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Вам нравится кататься на льду",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Хоккей" },
+      { "name": "Нет", "childId": 3 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Вы любите быть в воде?",
+    "children": [
+      {
+        "name": "Да",
+        "childId": null,
+        "answer": "Водное поло"
+      },
+      {
+        "name": "Нет",
+        "childId": 4
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Вам нравится управлять мячом руками или ногами?",
+    "children": [
+      { "name": "Руками", "childId": 5 },
+      { "name": "Ногами", "childId": null, "answer": "Футбол" },
+      {
+        "name": "Не люблю спорт с мячом",
+        "childId": null,
+        "answer": "Керлинг"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Вы хотите постоянно бежать",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Баскетбол" },
+      { "name": "Нет", "childId": null, "answer": "Волейбол" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Экстремальный спорт?",
+    "children": [
+      { "name": "Да", "childId": 7 },
+      { "name": "Нет", "childId": 18 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Вам нравится лазать?",
+    "children": [
+      { "name": "Да", "childId": 8 },
+      { "name": "Нет", "childId": 11 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "По горам или городской местности?",
+    "children": [
+      { "name": "По горам", "childId": null, "answer": "Альпинизм" },
+      { "name": "По городской местности", "childId": null, "answer": "Паркур" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Вам нравится чувство полета?",
+    "children": [
+      { "name": "Да", "childId": 10 },
+      { "name": "Нет", "childId": 12 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Только по вертикали или еще по горизонтали",
+    "children": [
+      { "name": "Первое", "childId": null, "answer": "Прыжки с парашютом" },
+      { "name": "Второое", "childId": 11 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Начинать с позиции сверху или снизу?",
+    "children": [
+      { "name": "Сверху", "childId": null, "answer": "Прыжки с вингсьюта" },
+      { "name": "Снизу", "childId": null, "answer": "Параглайдинг" }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Вам нравится ездить на велосипеде, скейте, мотоцикле или автомобиле?",
+    "children": [
+      { "name": "На велосипеде", "childId": 13 },
+      { "name": "На скейте", "childId": null, "answer": "Скейтбординг" },
+      { "name": "На мотоцикле", "childId": 14 },
+      { "name": "На автомобиле", "childId": 15 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Преодоление препятствий, езда по бездорожью или спуск с гор",
+    "children": [
+      { "name": "Первое", "childId": null, "answer": "Велотриал" },
+      { "name": "Второе", "childId": null, "answer": "Кросс-кантри" },
+      { "name": "Третье", "childId": null, "answer": "Даунхилл" }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Техничность и аккуратность или скорость?",
+    "children": [
+      {
+        "name": "Техничность и аккуратность",
+        "childId": null,
+        "answer": "Мототриал"
+      },
+      { "name": "Скорость", "childId": null, "answer": "Спидвей" }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Классические заезды",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Кольцевые гонки" },
+      { "name": "Нет", "childId": 16 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Вариант, где вы заранее не знаете маршрут",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Ралли" },
+      { "name": "Нет", "childId": 17 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Заезд по грязи, бездорожьям?",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Трофи" },
+      { "name": "Нет", "childId": null, "answer": "Драг-рейсинг" }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Вам нравятся единоборства?",
+    "children": [
+      { "name": "Да", "childId": 19 },
+      { "name": "Нет", "childId": 24 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Ударные виды или борьба?",
+    "children": [
+      { "name": "Ударные", "childId": 20 },
+      { "name": "Борьба", "childId": 23 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Вы предпочитаете использовать только руки в единоборствах",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Бокс" },
+      { "name": "Нет", "childId": 21 }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Восточные или европейские единоборства?",
+    "children": [
+      { "name": "Восточные", "childId": 22 },
+      { "name": "Европейские", "childId": null, "answer": "Кикбоксинг" }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Больше упор на удары ногами?",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Тхэквондо" },
+      { "name": "Нет", "childId": null, "answer": "Тайский бокс" }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Единоборства Советской системы?",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Самбо" },
+      { "name": "Нет", "childId": null, "answer": "Дзюдо" }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Вы любите больше интеллектуальный спорт?",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Шахматы" },
+      { "name": "Нет", "childId": 25 }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Вы любите точно попадать в цель",
+    "children": [
+      { "name": "Да", "childId": 26 },
+      { "name": "Нет", "childId": 27 }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Еще при этом кататься на лыжах?",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Биатлон" },
+      { "name": "Нет", "childId": null, "answer": "Спортивная стрельба" }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Как насчет походов?",
+    "children": [
+      { "name": "Да", "childId": null, "answer": "Хайкинг" },
+      { "name": "Нет", "childId": null, "answer": "Тениис" }
+    ]
+  }
+]
